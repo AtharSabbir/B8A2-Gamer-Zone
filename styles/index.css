@@ -5,7 +5,42 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
+/* nav related styles */
 .nav{
+    width: auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+.g-colour{
+    color: #FF42A5;
+}
+h1{
+    margin-left: 20px;
+}
+.nav1{
+    display: flex;
+}
+.nav1 > img{
+    width: 86.041px;
+    height: 40px;
+    margin-top: 15px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    margin-top: 25px;
+}
+li{
+    margin-right: 30px;
+}
+li > a{
+    text-decoration: none;
+    color: #3C354F;
+}
+.nav-follow-us{
+    background-color: #cac8c8;
+    margin-right: 20px;
+    border-radius: 8px;
+    width: fit-content;
 }
