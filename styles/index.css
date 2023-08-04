@@ -41,6 +41,44 @@ li > a{
 .nav-follow-us{
     background-color: #cac8c8;
     margin-right: 20px;
-    border-radius: 8px;
-    width: fit-content;
+    border-radius: 5px;
+    width: 150px;
+    height: 5px;
+    padding: 10px 0px 20px 20px;
+}
+
+/* responsive for mobile view */
+
+ /* nav responsive start */
+
+@media screen and (max-width:400px) {
+    .nav{
+        flex-direction: column;
+    }
+
+    ul{
+        
+        flex-direction: column;
+        align-items: center;
+        margin-top: 60px;
+        
+    }
+
+    .nav1 > img{
+        align-items: center;
+    }
+
+    .nav1{
+        justify-content: center;
+    }
+    li{
+        margin-top: 10px;
+    }
+
+    .nav-follow-us{
+        
+        margin-top: 60px;
+        height: 30px;
+    }
+/* nav responsive close */
 }
