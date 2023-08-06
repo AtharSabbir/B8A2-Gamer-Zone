@@ -8,10 +8,11 @@
 }
 /*nav start here */
 .nav {
-  width: auto;
+  max-width: 1400px;
+  /* width: auto; */
   display: flex;
   justify-content: space-between;
-  padding: 10px 50px;
+  margin: 0 auto;
 }
 .g-colour {
   color: #ff42a5;
@@ -43,9 +44,7 @@ li > a {
 
 .nav-follow-us {
   background-color: #cac8c8;
-  margin-right: 20px;
   border-radius: 5px;
-  width: 150px;
   height: 5px;
   padding: 10px 0px 20px 20px;
 }
@@ -54,29 +53,31 @@ li > a {
 /* banner-1-container start here */
 
 .banner-1-container {
-  border: 1px solid red;
   margin: 0px auto 0px;
-  max-width: 1300px;
+  max-width: 1400px;
   display: flex;
   justify-content: space-between;
 }
 
 .banner-1-text {
-
-  border: 1px solid blueviolet;
+  background-image: url('Group-14.png');
   font-size: 48px;
-  font-weight: 600;
-  padding: 150px 300px 150px 240px;
+  padding: 18px 35px 18px 35px;
   width: 50%;
 }
 
 .banner-1-text > p {
   color: #534c64;
-  text-align: left;
+  margin-left: 160px;
   font-size: 20px;
   font-weight: 500;
-}
 
+  
+}
+.banner-1-text > h1{
+  margin-left: 0;
+  text-align: center;
+}
 
 .banner-1-text .goat-colour {
     background-image: linear-gradient(to bottom, #f948b2, #8758f1);
@@ -84,32 +85,38 @@ li > a {
     -webkit-background-clip: text;
     font-size: 95px;
     font-weight: 800;
+    text-align: center;
   }
 
 
 .banner-1-btn{
-    display: flex;
     gap: 25px;
     margin-left: 0px;
-    
+    text-align: center;
 }  
 .btn-pink{
     background-color:  #FF42A5;
     border-radius: 48px;
     padding: 21px 40px;
     font-size: 20px;
-    
+    border: none;
+    color: white;
 }
 .btn-skyblue{
     background-color: #4EC5F7;
     border-radius: 48px;
     padding: 21px 40px;
     font-size: 20px;
+    border: none;
+    color: white;
 }
 
 .banner-1-img {
-  border: 1px solid blue;
   width: 50%;
+}
+.banner-1-img img{
+  width: 100%;
+  height: 100%;
 }
 
 /* banner-1-container end here */
@@ -118,7 +125,7 @@ li > a {
 
 /* nav responsive start */
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 425px) {
   .nav {
     flex-direction: column;
   }
@@ -145,4 +152,29 @@ li > a {
     height: 30px;
   }
   /* nav responsive close */
+
+  /* banner-1 responsive start */
+  .banner-1-container {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+
+  .banner-1-img{
+    width: 100%;
+}
+
+.banner-1-text {
+  width: 100%;
+  padding: 0%;
+}
+  .banner-1-text > h1 {
+    font-size: 40px;
+}
+.banner-1-text .goat-colour {
+  font-size: 80px;
+}
+.banner-1-text > p {
+  margin-left: 40px;
+}
+/* banner-1 responsive end */
 }
