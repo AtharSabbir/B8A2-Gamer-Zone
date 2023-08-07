@@ -152,12 +152,45 @@ li > a {
   caption-side: bottom;
 }
 
+/* overlap img section start */
+.ovrlapimage-container{
+  margin: 50px auto 0px;
+  max-width: 1400px;
+  display: flex;
+  justify-content: space-between;
+}
+.ovrlapimage{
+  position: relative;
+}
+
+.small-img{
+  position: absolute;
+  top: 450px;
+  left: 550px;
+}
+
+.ovrlapimage-text{
+  width: 50%;
+  font-size: 50px;
+  text-align: left;
+  margin: 100px 0;
+  padding: 100px 50px 100px 100px;
+  
+}
+.pink-text{
+  color: #F948B2;
+}
+.ovrlapimage-text .small-text{
+  font-size: 18px;
+}
+/* overlap img section end */
 
 
 
 
 
-/* responsive for mobile view */
+
+/* responsive for mobile view start */
 
 /* nav responsive start */
 
@@ -226,4 +259,38 @@ li > a {
   margin: 0 30px;
 }
 /* card responsive end */
+/* overlap img section start */
+.ovrlapimage-container {
+  flex-direction: column-reverse;
+  
+}
+.ovrlapimage-text{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+.ovrlapimage-text .small-text {
+  margin-top: 30px;
+  font-size: 10px;
+}
+.ovrlapimage{
+  border: 3px solid red;
+  margin-left: 0px;: ;
+
+}
+.ovrlapimage img{
+  margin-right: 0;
+  width: 200px;
+  margin-left: 60px;
+ 
+}
+.small-img{
+  position: absolute;
+  top: 100px;
+  left: 50px;
+}
+/* overlap img section end */
 }
