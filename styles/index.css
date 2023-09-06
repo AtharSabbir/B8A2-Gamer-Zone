@@ -185,6 +185,59 @@ li > a {
 }
 /* overlap img section end */
 
+/* icon section start */
+.icon-container{
+  margin-top: 200px;
+  max-width: 1400px;
+  margin: 200px auto 0 auto ;
+  gap: 50px;
+
+}
+.icons {
+  display: flex;
+  justify-content: center;
+}
+.icons-1{
+  display: flex;
+  justify-content: center; 
+}
+/* icon section end */
+
+/* footer section start */
+footer{
+  margin: 50px 200px;
+  background-color: #0B0223;
+}
+footer > .nav1{
+  margin-top: 200px;
+  justify-content: center;
+}
+.amer-clour{
+  color: white;
+}
+.footer-text{
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.footer-content{
+  color: #FFFFFF99;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 20px;
+}
+.small{
+  color: #FFFFFF99;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 20px;
+  margin-bottom: 200px;
+}
+/* footer section end */
+
 
 
 
@@ -259,7 +312,7 @@ li > a {
   margin: 0 30px;
 }
 /* card responsive end */
-/* overlap img section start */
+/* overlap img section responsive start */
 .ovrlapimage-container {
   flex-direction: column-reverse;
   
@@ -278,7 +331,8 @@ li > a {
 }
 .ovrlapimage{
   border: 3px solid red;
-  margin-left: 0px;: ;
+  margin-left: 0px;
+  width: 300px;
 
 }
 .ovrlapimage img{
@@ -292,5 +346,8 @@ li > a {
   top: 100px;
   left: 50px;
 }
-/* overlap img section end */
-}
+/* overlap img section responsive end */
+
+/* icon responsive start */
+
+/* icon responsive end */
